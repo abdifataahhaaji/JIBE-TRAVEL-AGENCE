@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f0f9ff;
+  color: #1e3a8a;
+  line-height: 1.6;
+}
+.logo{
+    width:80px; 
+    height:80px;
+    margin-left:120px;
+    float:left;
+    margin-top:-90px;
+}
+.jhead{
+	margin-left:210px;
+	
+	
+}
+.chead{
+	margin-left:220px;
+	margin-top:-15px;
+}
+.nav{
+	    margin-left:300px;
+}
+.btn{
+	 background: #fff;
+
+  border-radius:20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+ 
+	 float:right;
+}
+header.header {
+  background: #1d4ed8;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: left;
+
+}
+
+header.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header.header nav {
+  margin-top: 1rem;
+}
+
+header.header nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header.header nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 3rem 1rem;
+  text-align: center;
+  background: linear-gradient(135deg, #e0f2ff, #ffffff);
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #1d4ed8;
+}
+
+.section {
+  padding: 2.5rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color: #1e40af;
+}
+
+.section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section ul li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+footer {
+  background: #e2e8f0;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #475569;
+  margin-top: 3rem;
+}
+.top-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.top-actions .btn {
+  background-color: #1e40af;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.top-actions .btn:hover {
+  background-color: #2563eb;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.search-box input {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+}
+
+.search-box button {
+  background: #1d4ed8;
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #1e40af;
+}
